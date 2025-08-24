@@ -31,3 +31,6 @@ git rm --cached "<file>"// Unstage a file from the staging area
 
 //go to commit
 git commit -m "message"// Commit staged changes with a message
+
+git log// Show commit logs
+git log --oneline// Show commit logs in a compact format

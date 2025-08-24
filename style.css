@@ -14,3 +14,7 @@ h1 {
 header {
   color: red;
 }
+
+section {
+  font-family: italic;
+}
