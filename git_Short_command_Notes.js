@@ -26,5 +26,8 @@ git status// Show the working tree status
 git add "<file>" .// Stage all changes for the next commit
 git add .// Stage all changes for the next commit
 
+// go to modified
 git rm --cached "<file>"// Unstage a file from the staging area
 
+//go to commit
+git commit -m "message"// Commit staged changes with a message
