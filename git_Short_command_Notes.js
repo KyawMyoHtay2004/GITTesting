@@ -69,3 +69,18 @@ git merge <branch_name>// Merge a specific branch into the master branch
 // Open the conflicting files and manually resolve the conflicts
 git add "<file>"// Stage the resolved files
 git commit -m "Resolved merge conflicts"// Commit the merge resolution
+
+// Clone a repository from GitHub
+git clone <repository_url>// Clone a repository from GitHub
+
+//--------------------------------------------------------------------------------------------
+
+//Real LIfe Project Commends
+git init// Initialize a new Git repository
+git add .// Stage all changes for the next commit
+git commit -m "message"// Commit staged changes with a message
+git remote add origin <repository_url>// Add a remote repository
+git push origin master// Push changes to the remote repository
+
+//GitHub Hosting Services
+Settings>Pages>Branch: master
