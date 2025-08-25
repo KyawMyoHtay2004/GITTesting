@@ -35,4 +35,13 @@ git commit -m "message"// Commit staged changes with a message
 git log// Show commit logs
 git log --oneline// Show commit logs in a compact format
 
-git checkout <branch_name>// Switch to a different branch
+// checkout commit (Safe)
+git checkout <commit_id>// Switch to a specific commit
+git checkout master// Switch to the master commit
+
+// Revert commit (Safe)
+git revert <commit_id>// Revert a specific commit
+ctrl + x + y// Save changes and exit
+
+//Reset commit (Dangerous) (can't get commit back)
+git reset <commit_id> --hard// Reset to a specific commit, discarding all changes after it
