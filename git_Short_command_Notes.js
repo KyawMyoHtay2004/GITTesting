@@ -34,3 +34,5 @@ git commit -m "message"// Commit staged changes with a message
 
 git log// Show commit logs
 git log --oneline// Show commit logs in a compact format
+
+git checkout <branch_name>// Switch to a different branch
