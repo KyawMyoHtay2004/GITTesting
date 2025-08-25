@@ -46,7 +46,7 @@ ctrl + x + y// Save changes and exit
 //Reset commit (Dangerous) (can't get commit back)
 git reset <commit_id> --hard// Reset to a specific commit, discarding all changes after it
 
-//branch
+//branch create
 git branch -a// List all branches
 git branch "<branch_name>"// Create a new branch
 git checkout "<branch_name>"// Switch to a specific branch
@@ -54,4 +54,8 @@ git checkout "<branch_name>"// Switch to a specific branch
 git checkout -b "<branch_name>"// Create and switch to a new branch
 ctrl + i//switch to chatGPT
 
+// branch delete
+// First, make sure you are not on the branch you want to delete
+git checkout master// Switch to the master branch
+git branch -d "<branch_name>"// Delete a branch
 
