@@ -41,7 +41,8 @@ git checkout master// Switch to the master commit
 
 // Revert commit (Safe)
 git revert <commit_id>// Revert a specific commit
-ctrl + x + y// Save changes and exit
+:wq// Save changes and exit
+ctrl + x + y// Save changes and exit linux
 
 //Reset commit (Dangerous) (can't get commit back)
 git reset <commit_id> --hard// Reset to a specific commit, discarding all changes after it
@@ -59,3 +60,7 @@ ctrl + i//switch to chatGPT
 git checkout master// Switch to the master branch
 git branch -d "<branch_name>"// Delete a branch
 
+//branch merge to master
+//but need to go master branch
+git checkout master// Switch to the master branch
+git merge <branch_name>// Merge a specific branch into the master branch
