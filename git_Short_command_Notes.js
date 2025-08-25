@@ -50,3 +50,8 @@ git reset <commit_id> --hard// Reset to a specific commit, discarding all change
 git branch -a// List all branches
 git branch "<branch_name>"// Create a new branch
 git checkout "<branch_name>"// Switch to a specific branch
+
+git checkout -b "<branch_name>"// Create and switch to a new branch
+ctrl + i//switch to chatGPT
+
+
