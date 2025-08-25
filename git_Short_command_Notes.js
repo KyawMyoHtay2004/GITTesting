@@ -59,8 +59,13 @@ ctrl + i//switch to chatGPT
 // First, make sure you are not on the branch you want to delete
 git checkout master// Switch to the master branch
 git branch -d "<branch_name>"// Delete a branch
-
+git push origin --delete "<branch_name>"// Delete a branch from the remote for GitHub
 //branch merge to master
 //but need to go master branch
 git checkout master// Switch to the master branch
 git merge <branch_name>// Merge a specific branch into the master branch
+
+// Resolve merge conflicts
+// Open the conflicting files and manually resolve the conflicts
+git add "<file>"// Stage the resolved files
+git commit -m "Resolved merge conflicts"// Commit the merge resolution
