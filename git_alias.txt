@@ -47,3 +47,5 @@ Tips:
 - gl1 gives a beautiful Git log graph
 - mkcd quickly creates a folder and enters it
 - Use g* shortcuts instead of typing full Git commands
+
+hi
