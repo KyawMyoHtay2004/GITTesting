@@ -1,0 +1,49 @@
+=========================================
+   CMD & Git Shortcuts Cheat Sheet
+=========================================
+
+--- Basic CMD Commands ---
+ls           -> dir (list files)
+dir          -> dir (list files)
+cd           -> change directory
+cd..         -> move up one directory
+clr / cls    -> clear terminal screen
+exit         -> exit terminal
+mkdir <name> -> create a new folder
+code <file>  -> open VS Code
+code_dot     -> open current directory in VS Code
+
+--- Git Commands ---
+g            -> git <command>
+gs           -> git status
+ga <file>    -> git add <file>
+gaall        -> git add .
+grm <file>   -> git rm --cached <file>
+gc "msg"     -> git commit -m "msg"
+gca "msg"    -> git commit -am "msg"
+gp           -> git push
+gpl          -> git pull
+gl           -> git log
+gl1          -> git log --oneline --graph --decorate --all --color
+gco <branch> -> git checkout <branch>
+gcb <branch> -> git checkout -b <branch>
+gb           -> git branch
+gbdel <br>   -> git branch -d <branch>
+gpdel <br>   -> git push origin --delete <branch>
+gmerge <br>  -> git merge <branch>
+gclone <url> -> git clone <repository_url>
+gremoteadd <url> -> git remote add origin <url>
+gpush        -> git push origin master
+
+--- Merge Conflicts ---
+gadd <file>  -> git add <file>
+gcres        -> git commit -m "Resolved merge conflicts"
+
+--- Folder Utilities ---
+mkcd <name>  -> mkdir <name> & cd <name>
+
+=========================================
+Tips:
+- gl1 gives a beautiful Git log graph
+- mkcd quickly creates a folder and enters it
+- Use g* shortcuts instead of typing full Git commands
