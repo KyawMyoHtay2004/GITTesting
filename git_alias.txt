@@ -19,8 +19,8 @@ gs           -> git status
 ga <file>    -> git add <file>
 gaall        -> git add .
 grm <file>   -> git rm --cached <file>
-gc "msg"     -> git commit -m "msg"
-gca "msg"    -> git commit -am "msg"
+gcommit "msg" -> git commit -m "msg"          # replaced gc
+gcommitall "msg" -> git commit -am "msg"      # replaced gca
 gp           -> git push
 gpl          -> git pull
 gl           -> git log
@@ -28,9 +28,9 @@ gl1          -> git log --oneline --graph --decorate --all --color
 gco <branch> -> git checkout <branch>
 gcb <branch> -> git checkout -b <branch>
 gb           -> git branch
-gbdel <br>   -> git branch -d <branch>
-gpdel <br>   -> git push origin --delete <branch>
-gmerge <br>  -> git merge <branch>
+gbdel <branch> -> git branch -d <branch>
+gpdel <branch> -> git push origin --delete <branch>
+gmerge <branch> -> git merge <branch>
 gclone <url> -> git clone <repository_url>
 gremoteadd <url> -> git remote add origin <url>
 gpush        -> git push origin master
@@ -47,5 +47,3 @@ Tips:
 - gl1 gives a beautiful Git log graph
 - mkcd quickly creates a folder and enters it
 - Use g* shortcuts instead of typing full Git commands
-
-hi
