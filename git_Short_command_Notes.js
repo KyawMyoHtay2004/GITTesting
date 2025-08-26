@@ -84,3 +84,9 @@ git push origin master// Push changes to the remote repository
 
 //GitHub Hosting Services
 Settings>Pages>Branch: master
+
+//Stash changes in a dirty working directory
+git stash --include-untracked// Stash changes including untracked files***
+git stash// Stash changes in a dirty working directory
+
+git stash pop// Apply the stashed changes
