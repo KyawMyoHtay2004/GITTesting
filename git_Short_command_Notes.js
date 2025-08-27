@@ -53,6 +53,7 @@ git branch "<branch_name>"// Create a new branch
 git checkout "<branch_name>"// Switch to a specific branch
 
 git checkout -b "<branch_name>"// Create and switch to a new branch
+git switch -c your-new-branch-name// Create and switch to a new branch
 ctrl + i//switch to chatGPT
 
 // branch delete
@@ -90,3 +91,10 @@ git stash --include-untracked// Stash changes including untracked files***
 git stash// Stash changes in a dirty working directory
 
 git stash pop// Apply the stashed changes
+
+//----------------------------------------------------------------
+
+first-contributions// A repository for making your first contribution (Search in Google)
+
+//--------------------------------------------------------------------------------------
+.gitignore// Specify files and directories to ignore in the repository
